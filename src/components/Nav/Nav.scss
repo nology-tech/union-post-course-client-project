@@ -1,0 +1,66 @@
+@use "../../styles/variables" as *;
+
+.nav {
+  padding: 5vh 5vw;
+  text-justify: center;
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__link-mobile {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border: 0.1rem $color-gray-blue solid;
+    box-shadow: 0 0.2rem 2rem 1rem rgba($color-gray-blue, 0.1);
+
+    &--home {
+      display: none;
+    }
+  }
+
+  &__link-desktop {
+    display: none;
+  }
+
+  &__image {
+    &--chevron {
+      height: 2.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .nav {
+    background-color: $background-color-light-blue;
+    width: 25vw;
+    height: 100vh;
+    border-top-right-radius: 2rem;
+    padding: 15vh 0 0;
+
+    &__links-container {
+      margin: 0 1vw;
+      border-top: 0.1rem $color-blue solid;
+    }
+
+    &__link-desktop {
+      display: flex;
+      padding: 0.5rem 2vw;
+    }
+
+    &__title {
+      color: $text-color-white;
+    }
+
+    &__link-mobile {
+      display: none;
+    }
+
+    &__image {
+      margin-right: 0.7rem;
+    }
+  }
+}
