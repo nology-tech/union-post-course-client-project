@@ -5,6 +5,30 @@ $desktop-breakpoint: 1024px;
 $large-desktop-breakpoint: 1440px;
 $extra-large-desktop-breakpoint: 2560px;
 
-//colors
-$text-color: #f3f2e8;
-$background-color: #1f1b1b;
+// colors
+$color-dark-blue: #2d3748;
+$color-blue: #5a84d3;
+$color-gray-blue: #95accb;
+$color-light-blue: #8aaae5;
+$color-purple: #d6d5de;
+$color-beige: #e5c58a;
+$color-white: #ffffff;
+$color-off-white: #f8f8ff;
+$color-red: #ee6161;
+// text
+$text-color: $color-dark-blue;
+$text-color-white: $color-white;
+// background
+$background-color-white: $color-white;
+$background-color-light-blue: $color-light-blue;
+$background-color-dark-blue: $color-dark-blue;
+
+// modern
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;500;600;700&display=swap");
+$modern-header: "Poppins", sans-serif;
+$modern-content: "PT Sans", sans-serif;
+
+// classic
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;500;600;700&display=swap");
+$classic-header: "Playfair Display", serif;
+$classic-content: "Lato", sans-serif;
