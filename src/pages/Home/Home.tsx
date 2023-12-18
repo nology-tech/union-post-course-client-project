@@ -4,7 +4,9 @@ import Nav from "../../components/Nav/Nav";
 const Home = () => {
   return (
     <Layout>
-      <Nav />
+      <div data-testid="nav-container">
+        <Nav />
+      </div>
     </Layout>
   );
 };
