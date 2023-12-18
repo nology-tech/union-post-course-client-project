@@ -5,8 +5,8 @@
 // we can manipulate the :root element's font-size at different breakpoints to scale up the font-size application-wide
 
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: $modern-content, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: $text-color;
 }
 
@@ -25,18 +25,32 @@ p {
 
 button {
   font-size: 1rem;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 2.1rem;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.65rem;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
