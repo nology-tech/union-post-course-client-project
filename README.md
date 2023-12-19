@@ -81,3 +81,15 @@ We provide two font styles, modern and classic, each with specific font families
 - Classic Fonts:
   - Header: "Playfair Display"
   - Content: "Lato"
+
+## Nav Component
+
+The `Nav` component is a navigation component designed for React applications using the React Router library.
+
+```bash
+npm install react-router-dom
+```
+
+- Responsive design with separate views for desktop and mobile.
+- NavLink components for each section.
+- Icons and titles for each NavLink to provide a clear visual representation.
